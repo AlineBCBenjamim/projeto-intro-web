@@ -1,4 +1,4 @@
-// ***** 2 SEMANA *****
+// ***** 3 SEMANA *****
 
 const raca1 = {
   raca: "Husky Siberiano",
@@ -82,12 +82,36 @@ if (raca6.temPedigree) {
 }
 
 
+for (const propriedade in racas) {
+    racas[propriedade].coloracaoPelos = racas[propriedade].coloracaoPelos.toString(); 
+    console.log(racas[propriedade].coloracaoPelos);
+}
 
+console.log(racas);
 
+/*3. Crie uma função que receba como parâmetro um objeto, e devolva a string do relatório com os dados do objeto.*/
 
+function recebaUmaString(objeto) {
+  let umRelatorio =""
+  for (const i in objeto){
+    umRelatorio=`${umRelatorio}\n${[i]}: ${objeto[i]}`    
+  }
+  return umRelatorio
+}
+recebaUmaString(raca1)
 
+// 4. Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um objeto, e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
 
+function busca(array, string) {
+    for (let i in array) {
+        if (array[i].raca === string) {
+            return array[i]
+        }
+    }
+  return alert(`Nenhum item ${string} não foi encontrado`)
+}
 
+console.log(busca(racas, "Rough Collie"));
 
 
 
