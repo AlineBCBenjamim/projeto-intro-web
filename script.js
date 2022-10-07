@@ -1,16 +1,18 @@
-// ***** 3 SEMANA *****
+// ***** 4 SEMANA *****
 
 const raca1 = {
   raca: "Husky Siberiano",
   idade: 14,
   temPedigree: true,
   coloracaoPelos: ["branco", "cinza", "preto"],
+  imagem: "",
 };
 const raca2 = {
   raca: "Rough Collie",
   idade: 15,
   temPedigree: true,
   coloracaoPelos: ["amarelo", "branco", "preto"],
+  imagem: "",
 };
 
 const raca3 = {
@@ -18,6 +20,7 @@ const raca3 = {
   idade: 14,
   temPedigree3: false,
   coloracaoPelos: ["caramelo", "preto", "marrom"],
+  imagem: "",
 };
 
 const raca4 = {
@@ -25,6 +28,7 @@ const raca4 = {
   idade: 13,
   temPedigree: true,
   coloracaoPelos: ["caramelo", "preto", "cinza"],
+  imagem: "",
 };
 
 const raca5 = {
@@ -32,6 +36,7 @@ const raca5 = {
   idade: 16,
   temPedigree: true,
   coloracaoPelos: ["preto", "marrom", "branco"],
+  imagem: "",
 };
 
 const raca6 = {
@@ -39,6 +44,7 @@ const raca6 = {
   idade: 14,
   temPedigree: true,
   coloracaoPelos: ["branco", "creme", "rajado"],
+  imagem: "",
 };
 
 
@@ -89,7 +95,6 @@ for (const propriedade in racas) {
 
 console.log(racas);
 
-/*3. Crie uma função que receba como parâmetro um objeto, e devolva a string do relatório com os dados do objeto.*/
 
 function recebaUmaString(objeto) {
   let umRelatorio =""
@@ -100,7 +105,6 @@ function recebaUmaString(objeto) {
 }
 recebaUmaString(raca1)
 
-// 4. Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um objeto, e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
 
 function busca(array, string) {
     for (let i in array) {
