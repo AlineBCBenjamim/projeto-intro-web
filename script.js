@@ -16,7 +16,7 @@ const raca2 = {
 };
 
 const raca3 = {
-  raca: "Vira Lata",
+  raca: "Vira Lata SRD",
   idade: 14,
   temPedigree3: false,
   coloracaoPelos: ["caramelo", "preto", "marrom"],

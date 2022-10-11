@@ -6,16 +6,16 @@
 }
 
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;    
+    font-family: source sans variable;    
 }
 
 .cabecalho{
-    background-color: #C48699;    
+    background-color: #ba754f;
     color: white; 
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 8vh;
+    height: 70px;
 }  
 
 .campo-de-pesquisa{
@@ -23,23 +23,23 @@ body{
     align-items: center;
     justify-content: center;
     gap: 1vh;
-    height: 7vh;
-    background-color: #c4869995;
+    height: 50px;
+    background-color: #6d3726;
     color: white;
 
 }
 
 input{
     border: 0;
-    height: 3vh;
+    height: 20px;
     box-shadow: 1px 2px 2px gray;
     border-radius: 2px;
-    width: 15vw;
+    width: 200px;
 }
 
 .botao-de-pesquisa{
     border: 0;
-    height: 3vh;
+    height: 20px;
     width: 80px;
     font-size: small;
     box-shadow: 2px 2px 7px 1px gray;
@@ -49,13 +49,12 @@ input{
 
 .container{
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 5vh;
     padding-bottom: 3vh;
-    background-color: gray; 
 }
 
 .container img{
@@ -65,10 +64,11 @@ input{
 
 .card{
     height: 400px; 
-    width: 470px; 
+    width: 400px; 
     display: flex;
     flex-direction: column;    
-    background-color: #C48699;
+    background-color: #ba754f;
+    color: white;
     padding: 1vh;
     box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.656);
     align-items: center;
@@ -80,14 +80,16 @@ input{
     transition: all ease 500ms;
 }
 
+
 footer{
     display: flex;
-    height: 9vh;
+    height: 80px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 1vh;
-    background-color: #c4869995;
+    background-color: #6d3726;
+    color: white;
     font-weight: bold;
 }
 
