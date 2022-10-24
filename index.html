@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto sobre Raças de Cachorros</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="icon" href="./img/pegada.png">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -16,64 +17,10 @@
 <main>
     <div class="campo-de-pesquisa">
         <label for="buscar"></label>
-        <input type="text" name="Buscar">
-        <button class="botao-de-pesquisa" type="submit">Buscar</button> 
+        <input type="text" id="input" name="Buscar">
+        <button class="botao-de-pesquisa" type="submit" id="botao-de-buscar" onclick="buscarRaca(event)">Buscar</button> 
     </div>
     <div class="container">
-        <section class="card">
-            <img src="./img/Husky Siberiano.jpg" alt="Foto de um cachorro da raça Husky Siberiano">
-            <ul>
-                <li>Raça: <a href="https://pt.wikipedia.org/wiki/Husky_siberiano" target="_blank" rel="noopener noreferrer">Husky Siberiano</a></li>
-                <li>Tempo de vida: 14 anos</li> 
-                <li>Tem Pedigree: Sim</li>
-                <li> Coloração dos Pelos: Branco, Cinza, Preto</li>  
-            </ul>
-        </section>
-        <section class="card">
-            <img src="./img/Rough Collie.jpg" alt="Foto de um cachorro da raça Rough Collie">
-            <ul>
-                <li>Raça: <a href="https://pt.wikipedia.org/wiki/Rough_collie" target="_blank" rel="noopener noreferrer">Rough Collie</a></li>
-                <li>Tempo de vida: 15 anos</li>
-                <li>Tem Pedigree: Sim</li>
-                <li>Coloração dos Pelos: Amarelo, Branco, Preto</li>
-            </ul>
-        </section>
-        <section class="card">            
-            <img src="./img/Vira Lata SRD.jpg" alt="Foto de um cachorro Vira Lata SRD">
-            <ul>
-                <li>Raça: <a href="https://pt.wikipedia.org/wiki/Vira-lata" target="_blank" rel="noopener noreferrer">Vira Lata</a> </li>
-                <li>Tempo de vida: 14 anos</li>
-                <li>Tem Pedigree: Não</li>
-                <li>Coloração dos Pelos: Caramelo, Preto, Marrom</li>
-            </ul>
-        </section>
-        <section class="card">
-            <img src="./img/Pastor Alemão.jpg" alt="Foto de um cachorro da raça Pastor Alemão">
-            <ul>
-                <li>Raça: <a href="https://pt.wikipedia.org/wiki/Pastor-alem%C3%A3o" target="_blank" rel="noopener noreferrer">Pastor Alemão</a> </li>
-                <li>Tempo de vida: 13 anos</li>
-                <li>Tem Pedigree: Sim</li>
-                <li>Coloração dos Pelos: Caramelo, Preto, Cinza</li>
-            </ul>
-        </section>
-        <section class="card">
-            <img src="./img/Dachshund.jpg" alt="Foto de um cachorro da raça Dachshund">
-            <ul>
-                <li>Raça: <a href="https://pt.wikipedia.org/wiki/Dachshund" target="_blank" rel="noopener noreferrer">Dachshund</a> </li>
-                <li>Tempo de vida: 16 anos</li>
-                <li>Tem Pedigree: Sim</li>
-                <li>Coloração dos Pelos: Preto, Marrom, Branco</li>
-            </ul>
-        </section>
-        <section class="card">
-            <img src="./img/Samoieda.jpg" alt="Foto de um cachorro da raça Samoieda">
-            <ul>
-                <li>Raça: <a href="https://pt.wikipedia.org/wiki/Samoieda" target="_blank" rel="noopener noreferrer">Samoieda</a></li>
-                <li>Tempo de vida: 14 anos</li>
-                <li>Tem Pedigree: Sim</li>
-                <li>Coloração dos Pelos: Branco, Creme, Rajado</li>
-            </ul>
-        </section>
     </div>
 
 </main>
