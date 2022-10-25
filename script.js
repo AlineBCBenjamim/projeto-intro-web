@@ -1,4 +1,4 @@
-// ***** 4 SEMANA *****
+// ***** 6 SEMANA *****
 
 const raca1 = {
   raca: "Husky Siberiano",
@@ -18,7 +18,7 @@ const raca2 = {
 const raca3 = {
   raca: "Vira Lata SRD",
   idade: 14,
-  temPedigree3: false,
+  temPedigree: false,
   coloracaoPelos: ["caramelo", "preto", "marrom"],
   imagem: "./img/Vira Lata SRD.jpg",
 };
